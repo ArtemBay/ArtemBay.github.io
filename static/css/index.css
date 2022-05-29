@@ -1,11 +1,15 @@
 :root {
     --primary: #5662F6;
 }
-
+  
 body {
     background-color: #f2f2f2 !important;
     font-weight: 400;
     font-family: 'Mulish', sans-serif !important;
+}
+
+.navbar-custom {
+    background-color: #d6d6d6;
 }
 
 a {
