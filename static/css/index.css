@@ -33,7 +33,7 @@ h1 {
 .gradient {
     background: radial-gradient(circle, #ED0000, #FF9D5B, #FFC530, #FF6A00);
 	background-size: 300% 300%;
-	animation: gradient 30s ease infinite;
+	animation: gradient 70s ease infinite;
 }
 
 nav a {
