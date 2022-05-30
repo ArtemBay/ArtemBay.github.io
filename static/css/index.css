@@ -33,7 +33,7 @@ h1 {
 .gradient {
     background: radial-gradient(circle, #ED0000, #FF9D5B, #FFC530, #FF6A00);
 	background-size: 300% 300%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 30s ease infinite;
 }
 
 nav a {
@@ -77,6 +77,10 @@ nav a {
     text-align: center;
     margin-top: 100px;
 }
+
+body {
+    position: relative;
+  }
 
 .block2 ul {
     text-align: left !important;
