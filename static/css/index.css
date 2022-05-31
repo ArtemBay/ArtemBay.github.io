@@ -22,6 +22,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600 !important;
 }
 
+.btn:hover {
+    transition : 0.4s;
+    box-shadow : 0px 0px 1px 8px rgba(255, 140, 0, 0.644);
+    cursor : pointer;
+}
+
 h1 {
     font-weight: 700 !important;
 }
