@@ -47,6 +47,16 @@ nav a {
     font-size: 18px !important;
 }
 
+.parallax {
+    background-image: url("/static/img/coding.png");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+
 .jumbotron.title {
     color: #f2f2f2 !important;
     padding: 100px;
