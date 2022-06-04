@@ -20,6 +20,7 @@
         <meta name="theme-color" content="#ff9d5b">
         <meta name="description" content="Artem Bay website">
         <meta name="keywords" content="Artem bay, Артем бай, Артём Бай">
+        <meta property="og:type" content="website">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="Russian">
         <script src="https://code.jquery.com/jquery-2.2.0.js" integrity="sha256-oYqpLeqZe9cetUDV+TFiBZHp3uJ+X4F5eLs4W6uSTSE=" crossorigin="anonymous"></script>
@@ -43,16 +44,11 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/88942766" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
-        
+        <!-- Import the component -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </head>
 
     <body>
-        <nav class="navbar navbar-custom navbar-expand-lg" style="width: 100%; position: fixed; top: 0; background-color: #8E8E8E40; backdrop-filter: blur(7px);">
-            <div class="container-fluid">
-                <a class="navbar-brand"><img src="/static/img/logo.png" alt="" class="rounded" width="48" height="48"></a>
-                </div>
-            </div>
-        </nav>
         <div class="jumbotron gradient title rounded-bottom">
             <h1 class="display-4">Артем Бай <a href="https://artembay.tk/artem"><img src="https://cdn.discordapp.com/avatars/356737308898099201/c3ab0f032bb6503dd9a3124ca22c6475.png?size=1024" alt="" class="rounded" width="54" height="54"></a></h1>
             <p class="lead">Я обычный Python и HTML программист. <b>(да-да HTML это не язык программирования)</b></p>
@@ -61,13 +57,11 @@
               <a class="btn btn-primary btn-lg" href="https://discord.com/users/356737308898099201/" role="button" target="_blank">Мой дискордик</a>
             </p>   
         </div>
-        <!--
         <div style="transform: rotate(180deg); fill: #F2F2F2; position: relative; bottom: 7px; max-height: 10px;">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
             </svg>
         </div>
-        -->
         <style>
         .parallax {
             background-image: url("/static/img/coding.png");
@@ -104,6 +98,7 @@
             </div>
         </div>
         <br>
+            <model-viewer style="margin-left: auto; margin-right: auto; width: 450px; height: 450px;" poster="/static/img/logo.png" src="/static/scene.gltf" environment-image="/static/textures/Purple-Blue-gradient.jpeg" seamless-poster shadow-intensity="1" camera-controls camera-orbit="-75deg 65deg" autoplay enable-pan></model-viewer>
         <div class="container block2">
             <h1>Можете дать мне копеечку задонатив, на <span class="select hover-overlay">Qiwi</span>!</h1>
             <a class="btn btn-primary btn-lg" href="https://qiwi.com/payment/form/99999?blocked%5B0%5D=account&amountFraction=0&extra%5B%27account%27%5D=ARTEMBAY&amountInteger=50&blocked%5B0%5D=sum&currency=RUB" role="button" target="_blank">Поддержать Артема!</a>
@@ -117,5 +112,11 @@
             <p class="float-right"><a href="#">Вернуться наверх</a></p>
             <p>© 2022, Artem Bay. Связаться со мной: <a href="mailto:kkunfin@gmail.com">Почта</a>, <a href="tg://resolve?domain=artembayechka">Telegram</a>, <a href="https://discord.com/users/356737308898099201/">Discord</a></p>
         </footer>
+        <nav class="navbar navbar-custom navbar-expand-lg" style="width: 100%; position: fixed; top: 0; background-color: #8E8E8E40; backdrop-filter: blur(7px);">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img src="/static/img/logo.png" alt="" class="rounded" width="48" height="48"></a>
+                </div>
+            </div>
+        </nav>
     </body>
 </html>
