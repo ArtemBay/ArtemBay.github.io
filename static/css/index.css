@@ -142,7 +142,7 @@ h1 {
 }
 
 .gradient {
-    background: radial-gradient(circle, #ED0000, #FF9D5B, #FFC530, #FF6A00);
+  background: radial-gradient(circle, #ED0000, #FF9D5B, #FFC530, #FF6A00);
 	background-size: 300% 300%;
 	animation: gradient 70s ease infinite;
 }
@@ -150,6 +150,10 @@ h1 {
 nav a {
     font-weight: 600 !important;
     font-size: 18px !important;
+}
+
+code {
+  color: #FFC530 !important;
 }
 
 .parallax {
@@ -241,25 +245,11 @@ body {
   text-align: center;
   overflow: hidden;
 }
-.ymenia p span.typed-text {
-  font-weight: normal;
-  color: #f2f2f2;
-}
-.ymenia p span.cursor {
-  display: inline-block;
-  background-color: #f2f2f2;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
-}
-.ymenia p span.cursor.typing {
-  animation: none;
-}
 
-@keyframes blink {
-  0%  { background-color: #f2f2f2; }
-  49% { background-color: #f2f2f2; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #f2f2f2; }
+.rainbow {
+  background: linear-gradient(-45deg, #30ff75, #1877F2, #9c1fcd, #ff306e);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
