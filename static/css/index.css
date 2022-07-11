@@ -263,7 +263,7 @@ body {
 }
 
 .rainbow {
-  background: linear-gradient(-45deg, #30ff75, #1877F2, #9c1fcd, #ff306e);
+  background: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
