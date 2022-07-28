@@ -1,5 +1,5 @@
 var type_counter = 0;
-var txt = ["HTML", "JS", "CSS", "PYTHON", "C++"];
+var txt = ["PYTHON", "C++", "немного JS"];
 var speed = 250;
 var indexslovo = 0;
 

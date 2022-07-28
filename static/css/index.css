@@ -143,12 +143,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600 !important;
 }
 
-.btn:hover {
-    transition : 0.4s;
-    box-shadow : 0px 0px 1px 7px rgba(255, 140, 0, 0.644);
-    cursor : pointer;
-}
-
 h1 {
     font-weight: 700 !important;
 }
@@ -169,7 +163,7 @@ nav a {
 }
 
 code {
-  color: #FFC530 !important;
+    color: #5662F6 !important;
 }
 
 .parallax {
@@ -263,7 +257,7 @@ body {
 }
 
 .rainbow {
-  background: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
+  background: linear-gradient(45deg, rgba(255,193,7,1) 0%, rgba(255,87,34,1) 100%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
